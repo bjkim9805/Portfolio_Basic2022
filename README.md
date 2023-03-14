@@ -1,12 +1,27 @@
 # Portfolio_Basic2022
 ## 자기소개
-한림대학교에 재학 중인 김범준입니다. 게임 개발자 지망생으로서, 지금까지 게임과 관련해서 학교 수업 중 진행했던 프로젝트들을 소개해드리려고 합니다.
+### 학력
+2023.08 한림대학교 정보과학대학 졸업예정  
+2023.02 한림대학교 정보과학대학 수료
+2017.03 한림대학교 융합소프트웨어학과(현 정보과학대학 콘텐츠IT전공) 입학  
+2017.02 대광고등학교 졸업  
+### 자격/면허
+2022.09 정보처리기사  
+2022.08 일본어능력시험(JLPT)  
+2022.01 운전면허 2종 보통  
+2018.03 COS Pro(Python) 1급  
+### 기술
+![Unity](https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)  
+![Unreal Engine](https://img.shields.io/badge/unrealengine-%23313131.svg?style=for-the-badge&logo=unrealengine&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white) ![Swift](https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![WebGL](https://img.shields.io/badge/WebGL-990000?logo=webgl&logoColor=white&style=for-the-badge)  
+
 ***
 ## 작업물
 >[1. 2학년 1학기 Java2](#2018년-2학년-1학기-java2)   
 >[2. 2학년 2학기 VR/AR/게임제작기초](#2018년-2학년-2학기-vr-ar-게임제작기초)   
 >[3. 3학년 1학기 가상현실프로그래밍](#2019년-3학년-1학기-가상현실프로그래밍)   
 >[4. 3학년 2학기 게임프로그래밍](#2019년-3학년-2학기-게임프로그래밍)   
+>[4. 4학년 1학기 컴퓨터그래픽스](#2019년-3학년-2학기-게임프로그래밍)   
+>[4. 4학년 2학기 모바일프로그래밍](#2019년-3학년-2학기-게임프로그래밍)   
 
 [문서 자료 보기](https://github.com/bjkim9805/Portfolio_Basic2022/tree/main/ppt_backups, "일부 자료는 아래의 MEGA 클라우드에 있습니다")   
 [전체 파일 보기](https://mega.nz/folder/FKdHVCSS#zD2Zroh7XRuYL5ZpZSPKgg)
