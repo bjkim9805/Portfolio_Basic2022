@@ -150,16 +150,17 @@ private void OnTriggerEnter(Collider other)
 [Docs](https://github.com/bjkim9805/Portfolio_Basic2022/tree/main/ppt_backups/게임프로그래밍%20기말)   
 [Project](https://mega.nz/folder/dDsXgK5C#Vc3NspsJS1b1DNM9EZK1zw)
 ### 2022년, 4학년 1학기 컴퓨터그래픽스
+![Image](https://github.com/bjkim9805/Portfolio_Basic2022/blob/main/ppt_backups/스크린샷%202022-06-06%20오후%203.55.09.png)  
 
-[Docs](https://mega.nz/file/YL10hY5B#WR21bM5enF4C66Mds64uRydMwSbvWMFDO_fJ1adbT8A)
+[Docs](https://mega.nz/file/YL10hY5B#WR21bM5enF4C66Mds64uRydMwSbvWMFDO_fJ1adbT8A)  
 [Project](https://mega.nz/folder/ACtDBbQB#ztaMtAqzakERU9RudJjJmw)  
 ### 2022년, 4학년 1학기 캡스톤디자인
 
 [Docs & Project](https://github.com/Vioeon/CapstoneDesign)
 ### 2022년, 4학년 2학기 모바일프로그래밍
 
-[Docs](https://github.com/bjkim9805/Portfolio_Basic2022/blob/main/ppt_backups/SmartPF_PDF.pdf)
-[Project](https://mega.nz/folder/NDlTUTaC#1DZG74Oo1zsUtej_zOcjaw)
+[Docs](https://github.com/bjkim9805/Portfolio_Basic2022/blob/main/ppt_backups/SmartPF_PDF.pdf)  
+[Project](https://mega.nz/folder/NDlTUTaC#1DZG74Oo1zsUtej_zOcjaw)  
 [Project Image License](https://github.com/bjkim9805/Portfolio_Basic2022/blob/main/ppt_backups/LICENSE.MD)
 ***
 ### 기타 기간
