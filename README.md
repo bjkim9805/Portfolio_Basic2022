@@ -20,9 +20,9 @@
 >[2. 2학년 2학기 VR/AR/게임제작기초](#2018년-2학년-2학기-vr-ar-게임제작기초)   
 >[3. 3학년 1학기 가상현실프로그래밍](#2019년-3학년-1학기-가상현실프로그래밍)   
 >[4. 3학년 2학기 게임프로그래밍](#2019년-3학년-2학기-게임프로그래밍)   
->[5. 4학년 1학기 컴퓨터그래픽스](#2019년-3학년-2학기-게임프로그래밍)   
->[6. 4학년 1학기 캡스톤디자인](#2019년-3학년-2학기-게임프로그래밍)   
->[7. 4학년 2학기 모바일프로그래밍](#2019년-3학년-2학기-게임프로그래밍)   
+>[5. 4학년 1학기 컴퓨터그래픽스](#2022년-4학년-1학기-컴퓨터그래픽스)   
+>[6. 4학년 1학기 캡스톤디자인](#2022년-4학년-1학기-캡스톤디자인)   
+>[7. 4학년 2학기 모바일프로그래밍](#2022년-4학년-2학기-모바일프로그래밍)   
 
 [문서 자료 보기](https://github.com/bjkim9805/Portfolio_Basic2022/tree/main/ppt_backups, "일부 자료는 아래의 MEGA 클라우드에 있습니다")   
 [전체 파일 보기](https://mega.nz/folder/FKdHVCSS#zD2Zroh7XRuYL5ZpZSPKgg)
@@ -146,8 +146,17 @@ private void OnTriggerEnter(Collider other)
 ~~~
 적 AI는 이런 방식으로 플레이어를 향해 계속 힘을 주는 방식으로 빠르게 밀려오도록 설정했으며, 충돌 판정이 발생한 적 개체를 제거하지 않고 위치만 다시 지정하는 방식으로 연산량을 조절했습니다.   
 그 외 자료는 아래에 있습니다.   
-[Docks](https://github.com/bjkim9805/Portfolio_Basic2022/tree/main/ppt_backups/게임프로그래밍%20기말)   
+[Docs](https://github.com/bjkim9805/Portfolio_Basic2022/tree/main/ppt_backups/게임프로그래밍%20기말)   
 [Project](https://mega.nz/folder/dDsXgK5C#Vc3NspsJS1b1DNM9EZK1zw)
+### 2022년, 4학년 1학기 컴퓨터그래픽스
+
+[Project](https://mega.nz/folder/ACtDBbQB#ztaMtAqzakERU9RudJjJmw)  
+### 2022년, 4학년 1학기 캡스톤디자인
+
+[Docs & Project](https://github.com/Vioeon/CapstoneDesign)
+### 2022년, 4학년 2학기 모바일프로그래밍
+
+[Project](https://mega.nz/folder/NDlTUTaC#1DZG74Oo1zsUtej_zOcjaw)
 ***
 ### 기타 기간
 * 2020년부터 군휴학을 했습니다.
