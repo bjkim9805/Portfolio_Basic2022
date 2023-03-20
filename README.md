@@ -25,7 +25,8 @@
 >[7. 4학년 2학기 모바일프로그래밍](#2022년-4학년-2학기-모바일프로그래밍)   
 
 [문서 자료 보기](https://github.com/bjkim9805/Portfolio_Basic2022/tree/main/ppt_backups, "일부 자료는 아래의 MEGA 클라우드에 있습니다")   
-[전체 파일 보기](https://mega.nz/folder/FKdHVCSS#zD2Zroh7XRuYL5ZpZSPKgg)
+[전체 파일 보기](https://mega.nz/folder/FKdHVCSS#zD2Zroh7XRuYL5ZpZSPKgg)  
+Git LFS 저장공간 사용을 억제하기 위해, 프로젝트 및 일부 파일은 MEGA 클라우드에 저장하였습니다.
 ### 2018년, 2학년 1학기 Java2
 당시 기말 프로젝트로는 퀴즈 게임을 준비했습니다. 수업 중 배운 Collection, Exception Handling, FileIO를 적극적으로 활용해 과제를 준비했습니다.
 ~~~java
@@ -150,13 +151,16 @@ private void OnTriggerEnter(Collider other)
 [Project](https://mega.nz/folder/dDsXgK5C#Vc3NspsJS1b1DNM9EZK1zw)
 ### 2022년, 4학년 1학기 컴퓨터그래픽스
 
+[Docs](https://mega.nz/file/YL10hY5B#WR21bM5enF4C66Mds64uRydMwSbvWMFDO_fJ1adbT8A)
 [Project](https://mega.nz/folder/ACtDBbQB#ztaMtAqzakERU9RudJjJmw)  
 ### 2022년, 4학년 1학기 캡스톤디자인
 
 [Docs & Project](https://github.com/Vioeon/CapstoneDesign)
 ### 2022년, 4학년 2학기 모바일프로그래밍
 
+[Docs](https://github.com/bjkim9805/Portfolio_Basic2022/blob/main/ppt_backups/SmartPF_PDF.pdf)
 [Project](https://mega.nz/folder/NDlTUTaC#1DZG74Oo1zsUtej_zOcjaw)
+[Project Image License](https://github.com/bjkim9805/Portfolio_Basic2022/blob/main/ppt_backups/LICENSE.MD)
 ***
 ### 기타 기간
 * 2020년부터 군휴학을 했습니다.
