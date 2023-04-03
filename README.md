@@ -151,7 +151,7 @@ private void OnTriggerEnter(Collider other)
 [Project](https://mega.nz/folder/dDsXgK5C#Vc3NspsJS1b1DNM9EZK1zw)
 ### 2022년, 4학년 1학기 컴퓨터그래픽스
 ![Image](./mdRes/graphics.png)  
-허공을 비행하며 목표에 부딛히며 플레이하는 게임을 만들었습니다.  
+허공을 비행하며 목표에 부딛히며 플레이하는 게임을 만들었습니다. 간단한 사각뿔 형태의 비행체를 만들어, pong 셰이더와 3축 rotation을 구현했습니다. 적 유닛 전체를 플레이어 개체가 바라보는 방향의 반대로 이동하게 하여 비행을 구현하였습니다.  
 ~~~javascript
 window.onkeydown = function(event) {
     switch (event.keyCode) {
@@ -190,7 +190,7 @@ window.onkeydown = function(event) {
     render();
 };
 ~~~
-t
+위 코드를 통해 플레이어 개체가 회전하며, 비행 방향을 변경합니다.
 ~~~javascript
     RenewPos() {
         this.pos = INIT_MAT;
@@ -222,19 +222,24 @@ t
         }
     }
 ~~~
-mob move
+적의 이동은 위 방식으로 구현하였으며, 플레이어로부터 일정 거리 이상 멀어지거나 부딛힐 경우 리스폰되듯이 위치를 이동하도록 구현하였습니다.
 
 [Docs](https://mega.nz/file/YL10hY5B#WR21bM5enF4C66Mds64uRydMwSbvWMFDO_fJ1adbT8A)  
 [Project](https://mega.nz/folder/ACtDBbQB#ztaMtAqzakERU9RudJjJmw)  
 ### 2022년, 4학년 1학기 캡스톤디자인
 ![Image](https://user-images.githubusercontent.com/31684326/170237358-0ea92865-d2de-457e-8990-2464f7fe4c70.jpg)  
-n
+캡스톤디자인에서는 플레이어끼리 협동하는 멀티플레이어 퍼즐 게임을 진행하였습니다. Photon을 통해 통신하며, 맵 내의 각종 기믹을 협력하여 풀어나가는 게임을 목표로 프로젝트를 진행했습니다.  
 ![Image](https://user-images.githubusercontent.com/31684326/170507789-33a03f03-24b6-4238-9417-7ef539ac72ba.png)  
+  
+팀에서 저는 물리 시스템 구현을 중심으로 다른 팀원의 개발 지원을 했으며, 영문 서류 작성 등의 개발 외 업무도 진행하였습니다. 옵션 또한 구현하고 있었으나, 개발 기간 문제로 도중 취소되었습니다.  
+
+구체적인 프로젝트 설명은 아래의 링크에서 확인 가능합니다.  
 
 [Docs & Project](https://github.com/Vioeon/CapstoneDesign)
 ### 2022년, 4학년 2학기 모바일프로그래밍
 ![Image](./mdRes/mobile.png)  
-x
+기업연계 과목이였던 모바일 프로그래밍에서는 연계 과제의 요구사항에 따라 스마트 포트폴리오를 제작하였습니다. 시작 화면에서 Lottie를 이용한 로딩 화면을 거쳐, CardView 형태의 간단한 프로젝트 설명을 보여줍니다.  
+과제 요구사항에서 최대한 벗어나지 않도록 앱을 개발했으며, 영어와 일본어까지 총 3개국어를 지원합니다.  
 
 ~~~kotlin
 class MyCardViewHolder(val binding: CardLayoutBinding): RecyclerView.ViewHolder(binding.root)
@@ -262,7 +267,7 @@ class MyCardAdapter(val context: Context, val contents: MutableList<CardData>?):
     }
 }
 ~~~
-d
+카드뷰의 구현은 위 방식대로 진행하였습니다. 연결되는 링크를 바로 집어넣기 위해, 연결할 Intent나 그 외의 정보들을 넣은 CardData 클래스 또한 준비하였습니다.  
 
 [Docs](https://github.com/bjkim9805/Portfolio_Basic2022/blob/main/ppt_backups/SmartPF_PDF.pdf)  
 [Project](https://mega.nz/folder/NDlTUTaC#1DZG74Oo1zsUtej_zOcjaw)  
