@@ -150,14 +150,119 @@ private void OnTriggerEnter(Collider other)
 [Docs](https://github.com/bjkim9805/Portfolio_Basic2022/tree/main/ppt_backups/게임프로그래밍%20기말)   
 [Project](https://mega.nz/folder/dDsXgK5C#Vc3NspsJS1b1DNM9EZK1zw)
 ### 2022년, 4학년 1학기 컴퓨터그래픽스
-![Image](https://github.com/bjkim9805/Portfolio_Basic2022/blob/main/ppt_backups/스크린샷%202022-06-06%20오후%203.55.09.png)  
+![Image](./mdRes/graphics.png)  
+허공을 비행하며 목표에 부딛히며 플레이하는 게임을 만들었습니다.  
+~~~javascript
+window.onkeydown = function(event) {
+    switch (event.keyCode) {
+        case 37:    // left arrow
+        case 65:    // 'A'
+        case 97:    // 'a'
+            player.RotateObj(  ROTATE_THETA, UP );
+            break;
+        case 39:    // right arrow
+        case 68:    // 'D'
+        case 100:   // 'd'
+            player.RotateObj( -ROTATE_THETA, UP );
+            break;
+        case 38:    // up arrow
+        case 87:    // 'W'
+        case 119:   // 'w'
+            player.RotateObj( -ROTATE_THETA, RIGHT );
+            break;
+        case 40:    // down arrow
+        case 83:    // 'S'
+        case 115:   // 's'
+            player.RotateObj(  ROTATE_THETA, RIGHT );
+            break;
+        case 81:    // 'q'
+            player.RotateObj( -ROTATE_THETA, FRONT );
+            break;
+        case 69:    // 'e'
+            player.RotateObj (  ROTATE_THETA, FRONT );
+        case 50:    // '2'
+            console.log("%f, %f, %f / %f, %f, %f / %f, %f, %f",
+                player.cameraData.eyePos[0], player.cameraData.eyePos[1], player.cameraData.eyePos[2],
+                player.cameraData.atPos[0], player.cameraData.atPos[1], player.cameraData.atPos[2],
+                player.cameraData.upVec[0], player.cameraData.upVec[1], player.cameraData.upVec[2],);
+            break;
+    }
+    render();
+};
+~~~
+t
+~~~javascript
+    RenewPos() {
+        this.pos = INIT_MAT;
+        this.pos = mult(this.pos, translate(this.RandPos(), this.RandPos(), this.RandPos()));
+        // this.pos = mult(INIT_MAT, translate(0, 0, -2));
+    }
+
+    RandPos() {
+        var op = Math.floor(Math.random() * 2);
+        if(op == 0) op = -1;
+        return op * (Math.random() * 13 + 7.0);
+    }
+
+    OnCollision() {
+        this.collidable = false;
+        this.RenewPos();
+        this.collidable = true;
+    }
+
+    get Modeling() {
+        return { coord: this.points, color:this.colors , norm: this.normals };
+    }
+
+    Update(trans) {
+        this.pos = mult(this.pos, translate(trans));
+        if (this.pos[0][POS] > 25 || this.pos[1][POS] > 25 || this.pos[2][POS] > 25 || 
+            this.pos[0][POS] < -25 || this.pos[1][POS] < -25 || this.pos[2][POS] < -25) {
+            this.RenewPos();
+        }
+    }
+~~~
+mob move
 
 [Docs](https://mega.nz/file/YL10hY5B#WR21bM5enF4C66Mds64uRydMwSbvWMFDO_fJ1adbT8A)  
 [Project](https://mega.nz/folder/ACtDBbQB#ztaMtAqzakERU9RudJjJmw)  
 ### 2022년, 4학년 1학기 캡스톤디자인
+![Image](https://user-images.githubusercontent.com/31684326/170237358-0ea92865-d2de-457e-8990-2464f7fe4c70.jpg)  
+n
+![Image](https://user-images.githubusercontent.com/31684326/170507789-33a03f03-24b6-4238-9417-7ef539ac72ba.png)  
 
 [Docs & Project](https://github.com/Vioeon/CapstoneDesign)
 ### 2022년, 4학년 2학기 모바일프로그래밍
+![Image](./mdRes/mobile.png)  
+x
+
+~~~kotlin
+class MyCardViewHolder(val binding: CardLayoutBinding): RecyclerView.ViewHolder(binding.root)
+
+class MyCardAdapter(val context: Context, val contents: MutableList<CardData>?): RecyclerView.Adapter<RecyclerView.ViewHolder>() {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder =
+        MyCardViewHolder(CardLayoutBinding.inflate(LayoutInflater.from(parent.context), parent, false))
+
+    override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
+        val binding = (holder as MyCardViewHolder).binding
+        binding.imageView.setImageResource(contents!![position].image)
+        binding.titleText.text = context.getText(contents!![position].title)
+        binding.detailText.text = context.getText(contents!![position].desc)
+        binding.root.setOnClickListener {
+            if (contents!![position].intent == null) {
+                return@setOnClickListener
+            }
+//            startActivity(context, contents!![position].intent!!, null)
+            context.startActivity(contents!![position].intent)
+        }
+    }
+
+    override fun getItemCount(): Int {
+        return contents?.size ?: 0
+    }
+}
+~~~
+d
 
 [Docs](https://github.com/bjkim9805/Portfolio_Basic2022/blob/main/ppt_backups/SmartPF_PDF.pdf)  
 [Project](https://mega.nz/folder/NDlTUTaC#1DZG74Oo1zsUtej_zOcjaw)  
