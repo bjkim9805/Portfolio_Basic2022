@@ -274,5 +274,4 @@ class MyCardAdapter(val context: Context, val contents: MutableList<CardData>?):
 [Project Image License](https://github.com/bjkim9805/Portfolio_Basic2022/blob/main/ppt_backups/LICENSE.MD)
 ***
 ### 기타 기간
-* 2020년부터 군휴학을 했습니다.
-  * 기간 도중, 한 팬게임 프로젝트에 참가해 개발자로서 활동했습니다 (자료 비공개 상태).
+* 군휴학 중 팬 게임 프로젝트(도중 해산, 비공개됨) 참여 경험이 있습니다.
